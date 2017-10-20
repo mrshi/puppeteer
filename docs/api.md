@@ -102,6 +102,7 @@
   * [mouse.up([options])](#mouseupoptions)
 - [class: Touchscreen](#class-touchscreen)
   * [touchscreen.tap(x, y)](#touchscreentapx-y)
+  * [touchscreen.touchMove(touchPoints)](#touchscreentouchmovetouchpoints)
 - [class: Tracing](#class-tracing)
   * [tracing.start(options)](#tracingstartoptions)
   * [tracing.stop()](#tracingstop)
@@ -1257,6 +1258,10 @@ Dispatches a `mouseup` event.
 - returns: <[Promise]>
 
 Dispatches a `touchstart` and `touchend` event.
+
+#### touchscreen.touchMove(touchPoints)
+- `touchPoints` <[Array]<[Object]>>
+- returns: <[Promise]>
 
 ### class: Tracing
 
